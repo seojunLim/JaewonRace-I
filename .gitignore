@@ -1,0 +1,21 @@
+# Local-only scripts and config (do NOT commit)
+push_files.bat
+github_release.ps1
+push_config.txt
+files_to_push.txt
+run_output.log
+
+# Windows build output (tracked via files_to_push.txt, not auto-tracked)
+D3D12/
+DirectML.dll
+DirectML.Debug.dll
+Jaewon Races I*/
+JaewonRaceI.exe
+JaewonRaceI_Data/
+MonoBleedingEdge/
+UnityCrashHandler64.exe
+UnityPlayer.dll
+WebGL/
+WinPixEventRuntime.dll
+dstorage.dll
+dstoragecore.dll
